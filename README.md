@@ -1,16 +1,46 @@
-# React + Vite
+# Gallery Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Picsum Gallery is a responsive React-based image gallery application that fetches dynamic images using the Picsum API. It offers a clean and user-friendly interface to browse high-quality random images with smooth performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern, attractive UI with dark theme
+- Responsive grid layout
+- Interactive card hover effects
+- Smooth animations and transitions
+- Pagination support
+- Component-based architecture
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS
+- Axios
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+- `src/component/Card.jsx` - Individual image card component
+- `src/component/Header.jsx` - Header with title
+- `src/component/Gallery.jsx` - Grid layout for images
+- `src/component/Pagination.jsx` - Navigation controls
+- `src/App.jsx` - Main application container
